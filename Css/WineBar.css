@@ -1,0 +1,112 @@
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+    line-height:20px;
+}
+.logo{
+    width: 101px;
+    height: 96px;
+    border-radius: 160px;
+    border: 10px solid #666;
+    margin-left: -47px;
+    display:none
+}
+header{
+    background-image:url(../Images/vino.jpg);
+    background-size: contain;
+    padding: 1em 0;
+    width: 165em;
+    background-repeat: no-repeat;
+    background-color: black;;
+}
+header h1{
+    color: #ffffff2e;
+    font-size: 80px;
+    font-family: gabriola;
+    font-weight: 100;
+    margin-left: 27px;
+}
+nav{
+    background-color:#000000f2;;
+    margin-bottom: 2em;
+}
+ nav ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+ }
+ nav ul li{
+    display:inline-block;
+    width: 16.3%;
+ }
+ nav ul li a{
+    color: #ffffff9e;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    font-family: monospace;
+ }
+ nav ul li a:hover{
+    background-color: rgba(0,0,0,0,3)
+ }
+ footer{
+    clear: both;
+    color:black;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+ }
+ nav ul li a.active{
+    background-color:rgb(31 31 31);
+ }
+ .holder{
+    width:960px;
+    margin: 0  auto;
+ }
+ h2{
+    color:#666;
+    font-weight:400;
+    margin: 0 0 1em;
+ }
+ .left{
+    float:left;
+ }
+ .right{
+    float:right;
+ }
+ .imageHome{
+    width: 635px;
+ }
+ .homeImg{
+    text-align: center;
+ }
+ .columns{
+    overflow:hidden;
+ }
+ .welcome, .reviews{
+    box-sizing: border-box;
+ }
+ .welcome{
+    width:75%;
+    padding-right: 2em;
+ }
+ .reviews{
+    width:25%;
+ }
+ .review{
+    background-color:#ccc;
+    padding: 1em;
+ }
+ .review .cita{
+    font-weight:bold;
+    font-style:italic;
+    font-size:1.4em;
+    display:block;
+ }
+ .review .autor{
+    font-size: 0.7em;
+    text-align:center;
+    margin: 1em 0;
+    display:block;
+ }
