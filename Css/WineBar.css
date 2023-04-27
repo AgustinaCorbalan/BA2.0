@@ -48,17 +48,19 @@ nav{
     font-family: monospace;
  }
  nav ul li a:hover{
-    background-color: rgba(0,0,0,0,3)
+    background-color:#636161
  }
  footer{
+   background-color:#4a48489e;
     clear: both;
     color:black;
     padding: 3em 0;
     margin-top: 2em;
     text-align: center;
  }
+
  nav ul li a.active{
-    background-color:rgb(31 31 31);
+    background-color:rgb(79, 78, 78);
  }
  .holder{
     width:960px;
