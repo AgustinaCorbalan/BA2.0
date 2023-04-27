@@ -58,7 +58,9 @@ nav{
     margin-top: 2em;
     text-align: center;
  }
-
+main p{
+   text-align:justify;
+}
  nav ul li a.active{
     background-color:rgb(79, 78, 78);
  }
