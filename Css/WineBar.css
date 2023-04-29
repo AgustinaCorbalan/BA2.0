@@ -114,3 +114,73 @@ main p{
     margin: 1em 0;
     display:block;
  }
+ div.noticia {
+   margin: 20px auto;
+   background-color: rgb(0, 0, 0);
+   color: #fff;
+   padding: 15px;
+ }
+ 
+ div.noticia img.izquierda {
+   float: left;
+   margin-right: 15px;
+   width: 351px;
+   aspect-ratio: 16/9;
+   object-fit: cover;
+ }
+ 
+ div.noticia img.derecha {
+   float: right;
+   margin-left: 15px;
+   width: 343px;
+   aspect-ratio: 16/9;
+   object-fit: cover;
+ }
+ 
+ div.reset {
+   clear: both;
+ }
+
+
+ 
+ /* .service{
+   border: 1px solid gray;
+   border-radius: 0.7em;
+   margin:1em 0;
+   padding: 1em;
+   overflow: hidden;
+ }
+ /* .service .info{
+   width: 75%
+ } */
+/* .service .info h4{
+   color:black;
+   font-size: 1.2em;
+   font-style: italic;
+   font-weight: 500;
+   margin: 0 0 1em;
+   border-bottom: 1px solid #2e64a1;
+   padding-bottom: 0.5em;
+ } */
+ /* .service .info p{
+   font-size: 0.8em;
+   line-height: 1.2em;
+ } */
+ /* .service img{
+   border-radius: 0.8em;
+ }
+ .service:nth-child(even) img{
+   float: right;
+   margin: 0 0 0 1em;
+ }
+ .service:nth-child(even) .info{
+   float: left;
+ }
+ .service:nth-child(odd) .img{
+   float: left;
+   margin: 0 1em 0 0;
+ }
+ .service:nth-child(odd) .info{
+   float: left;
+   margin: 0 1em 0 0;
+ } */
