@@ -24,7 +24,7 @@ header h1{
     font-size: 80px !important;
     font-family: gabriola !important;
     font-weight: 100 !important;
-    margin-left: 806px;
+    margin-left: 691px;
 }
 nav{
     background-color:#000000f2;;
@@ -104,7 +104,7 @@ div.noticia img.izquierda {
  
 div.noticia img.derecha {
    float: right;
-   margin-left: 5vw;
+   margin-left: 2vw;
    width: 26vw;
    aspect-ratio: 16/9;
    object-fit: cover;
@@ -196,6 +196,23 @@ video{
 .navBar{
    --bs-navbar-padding-y: 1px;
 }
+.message{
+   text-align:center;
+}
+.aboutPeople {
+   overflow: hidden;
+ }
+ 
+ .aboutPeople img {
+   float: left;
+   margin-right: 10px; /* Espacio entre la imagen y el texto */
+ }
+ h6{
+   font-size: 12px;
+ }
+ h5{
+   font-size: 15px;
+ }
 @media (max-width:600px){
    .navBar ul{
       display:grid; 
@@ -205,10 +222,12 @@ video{
       display: grid;
       margin-left: 37vw;
   }
-   p {
-   font-size: 1vw;
-   line-break: anywhere;
-}
+  .columns p{
+   text-align:left
+  }
+ p{
+   text-align:left
+  }
    .imageHome {
       width: 90vw;
   }

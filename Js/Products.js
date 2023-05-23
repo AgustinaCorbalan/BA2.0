@@ -22,19 +22,10 @@ function search_products() {
       x[i].style.display = "none";
     }
   }
-
   let errorMessage = document.getElementById("message");
   if (!productFound) {
     errorMessage.style.display = "block";
   } else {
     errorMessage.style.display = "none";
   }
-}
-
-function send() {
-  let Name = document.getElementById("name");
-  let Mail = document.getElementById("mail");
-  Name || Mail === ""
-    ? alert("Debes completar todos los campos")
-    : document.write("Gracias por comunicarse con nosotros!");
 }
