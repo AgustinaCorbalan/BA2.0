@@ -20,7 +20,7 @@ function formSend(event) {
       "<p class='message'>Muchas gracias por tu mensaje!</p>";
     parentElement.innerHTML += contactMessage;
     setTimeout(function () {
-      window.location.href = "index.html";
+      window.location.href = "../index.html";
     }, 3000);
   }
 }

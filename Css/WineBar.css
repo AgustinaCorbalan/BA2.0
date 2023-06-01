@@ -288,3 +288,6 @@ div.noticia img.derecha{
  p#message{
    color: rgb(0, 0, 0);
  }
+ /* p:not(.footer){
+   text-align:justify;
+ } */
