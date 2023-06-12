@@ -15,10 +15,10 @@ function formSend(event) {
   } else {
     form.style.display = "none";
     footer.style.display = "none";
-    var parentElement = document.getElementById("ms");
-    let contactMessage =
-      "<p class='message'>Muchas gracias por tu mensaje!</p>";
-    parentElement.innerHTML += contactMessage;
+    var parentElement = document.getElementById("contactMessage");
+    var contactImage = document.createElement("img");
+    contactImage.src = "../Images/gracias.png";
+    parentElement.appendChild(contactImage);
     setTimeout(function () {
       window.location.href = "../index.html";
     }, 3000);
