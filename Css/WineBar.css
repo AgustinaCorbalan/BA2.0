@@ -294,6 +294,9 @@ video{
     text-decoration: none;
     font-family: monospace;
  }
+ a.link{
+   color:#212529;
+ }
  .history, .staff{
     margin-left: 20px;
     margin-right: 20px;
