@@ -163,6 +163,14 @@ textarea{
    width: 300px;
    aspect-ratio: 1 / 1;
 }
+.products {
+   transform: scale(1);
+  transition: transform 0.3s ease;
+ }
+ 
+ .products:hover {
+   transform: scale(1.2);
+ }
 #list h2{
    display: flex;
    text-align: center;
