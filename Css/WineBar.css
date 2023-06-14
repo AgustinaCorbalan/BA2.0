@@ -4,6 +4,10 @@
     line-height:20px;
     overflow-x:hidden;
 } 
+html{
+   max-width: 100%;
+   overflow-x: hidden;
+ }
 .logo{
     width: 101px;
     height: 96px;
@@ -89,7 +93,7 @@ main p{
    margin: 2vw auto;
    background-color: rgb(0, 0, 0);
    color: #fff;
-   padding: 1vw;
+   padding: 2vw;
    margin-left: 2vw;
    margin-right:1vw;
 }
@@ -97,7 +101,7 @@ main p{
 div.noticia img.izquierda {
    float: left;
    margin-right: 2vw;
-   width: 26vw;
+   width: 23vw;
    aspect-ratio: 16/9;
    object-fit: cover;
 }
@@ -194,7 +198,7 @@ textarea{
    color:#ffffff
 }
 video{
-   width: 99vw;
+   width: 100vw;
    margin-top: -32px;
 }
 .navBar{
